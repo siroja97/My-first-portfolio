@@ -1,0 +1,57 @@
+.content-wrap {
+	height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+
+   
+
+   
+
+}
+.content-title {
+	color: #111;
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Cinzel', serif;
+	margin-bottom: 20px;
+	text-align: center;
+	
+
+
+
+}
+
+
+.content-icons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 60px 300px 60px 300px;
+}
+.content-desc {
+}
+
+.space-around{
+	display: flex;
+	justify-content: space-around;
+}
+.first-row{
+	margin-bottom: 50px;
+	
+	
+
+}
+.foto{
+	height: 210px;
+	width: 200px;
+	margin-right: 100px;
+	
+
+}
+.second-row{
+	display: flex;
+    margin-bottom: 100px;
+}
+.third-row{
+margin-bottom: 100px;
+}

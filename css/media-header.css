@@ -1,0 +1,175 @@
+
+/* MOBILE HEADER  */
+
+@media (max-width: 1499px){
+    .header{
+    line-height: 10px;
+    font-size: 8px;
+    }
+    .header-desc-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+    padding: 150px 50px;
+
+}
+    .myfoto{
+  
+    width: 300px;
+    height: 290px;
+ }
+.header-desc-first{
+
+    
+    line-height: 40px;
+    font-size: 22px;
+    padding: 0;
+    
+
+  
+}
+.header-desc-second{
+    
+    line-height: 40px;
+    font-size: 22px;
+    padding:0;
+
+   
+
+}
+.header-bottom{
+   margin-top: 15px;
+}
+
+
+}
+.header-about-me h1{
+    font-size:22px;
+
+}
+
+@media (max-width: 899px){
+
+    .header-desc-wrap{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    padding: 0;
+
+}
+.header-about-me h1{
+    font-size:35px;
+
+}
+.icon-bottom{
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.myfoto{
+  
+    width: 230px;
+    height: 200px;
+ }
+
+
+
+.header-desc-first{
+
+    width: 100%;
+    line-height: 50px;
+    font-size: 23px;
+    padding: 0;
+    width: 90%;
+
+  
+}
+.header-desc-second{
+    display: none;
+   
+
+}
+.header-about-me h1{
+    font-size:18px;
+
+}
+.icon-bottom{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 599px){
+	.header{
+    line-height: 10px;
+    font-size: 8px;
+	}
+	.header-desc-wrap{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    padding: 0;
+
+}
+.header-about-me h1{
+    font-size:25px;
+
+}
+.icon-bottom{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.myfoto{
+  
+    width: 180px;
+    height: 200px;
+ }
+
+
+
+.header-desc-first{
+
+    width: 100%;
+    line-height: 30px;
+    font-size: 17px;
+    padding: 0;
+    width: 90%;
+
+  
+}
+.header-desc-second{
+    display: none;
+   
+
+}
+.header-bottom{
+   margin-top: 15px;
+}
+
+.header-about-me{
+  
+  margin: 0;  
+  line-height:10px;
+  
+}
+.header-about-me h1{
+    font-size:15px;
+
+}
+.icon-bottom{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.icon-bottom:focus{
+    color: #000;
+    transition: easy-in 0.5s;
+    
+}
+
+}

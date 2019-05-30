@@ -1,0 +1,85 @@
+.content-desc-wrap {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    line-height: 50px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.content-desc-wrap h3{
+	margin-top:0; 
+}
+.myskills-desc {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+.myskills-desc ul ,.myeducation-desc ul {
+	padding-inline-start: 0;
+	margin: 0;
+}
+.myskills-desc ul li {
+	padding-bottom:25px;
+	list-style: none;
+}
+
+.myskills-about{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.myeducation-desc {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin-right: 0px;
+padding: 0;
+
+
+
+}
+.myeducation-desc ul li {
+	padding-bottom:25px;
+	list-style: none;
+}
+
+
+.myskills-desc-article{
+
+}
+.content-desc-title{
+	color: #111;
+	font-size: 40px;
+	font-weight: 200;
+	margin-bottom: 50px;
+	
+
+
+}
+.content-desc-text{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+.content-image{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+}
+.content-image img{
+	width: auto;
+	height: auto;
+	
+	
+}
+.content-edge-line{
+	width: 2px;
+	height: 100%;
+	background-color: #000;
+	
+}
+.mobile-content-desc-wrap{
+	display: none;	
+}

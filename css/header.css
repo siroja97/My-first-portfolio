@@ -1,0 +1,98 @@
+
+
+.header {
+    background-image: url("../img/bg/bg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    height: 100vh;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+
+.header-desc-wrap{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;   
+}
+
+.myfoto{
+  
+    width: 350px;
+    height: 330px;
+    border-radius:  50%;
+    background-image: url("../img/portfolio/me.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+
+.header-desc-first{
+
+    width: 350px;
+    color: #fff;
+    line-height: 80px;
+    font-size: 30px;
+
+    
+   
+   font-family: 'Coiny', cursive;
+   
+
+  
+}
+.header-desc-second{
+    width: 350px;
+    color: #fff;
+    line-height: 80px;
+    font-size: 30px;
+   font-family: 'Coiny', cursive;
+   
+
+}
+.header-bottom{
+   margin-top: 90px;
+}
+
+.header-about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    line-height:20px;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+
+}
+.header-about-me h1{
+    font-size: 30px;
+
+}
+.icon-bottom{
+    font-size: 25px;
+}
+.icon-bottom:hover{
+    color: #000;
+    transition: easy-in 0.5s;
+    
+}
+.header-about-me a{
+    color: #fff;
+
+    text-decoration: none;
+
+}

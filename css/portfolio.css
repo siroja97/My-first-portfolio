@@ -1,0 +1,57 @@
+/* ........................................
+
+	PORTFOLIO
+
+........................................ */
+.portfolio {
+   background-color: #FFF;
+  padding-bottom: 50px;
+
+}
+
+.portfolio-item {
+    margin-right: 20px;
+    max-width: 350px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+.portfolio-item__img {
+    margin-bottom: 17px;
+}
+
+.portfolio-item__img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item__title {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.portfolio-item__title a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #FFF;
+}
+
+
+
+.portfolio-item__text p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.active  {
+    outline: none;
+
+}
+.owl-dot:focus{
+    outline: none;
+}

@@ -1,0 +1,88 @@
+html, body {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    min-width: 280px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::selection{
+    color: #111;
+    background-color: #fff;
+}
+
+img {
+    display: inline-block;
+}
+
+a {
+    transition: 0.2s ease-out;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.arrow-to-top{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    display: none;
+
+}
+.arrow-to-top:hover {
+    background-color: lightgrey;
+    border-radius: 50%;
+   
+}
+
+.fa-arrow-circle-up{
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    left:10px;
+}
+
+@media(max-width: 899px ){
+    .arrow-to-top{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: none;
+
+}
+.arrow-to-top:hover {
+    background-color: lightgrey;
+    border-radius: 50%;
+   
+}
+
+.fa-arrow-circle-up{
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left:10px;
+}
+
+}
+
+
+
+
+
+
+
+
